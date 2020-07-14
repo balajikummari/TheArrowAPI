@@ -1,0 +1,12 @@
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\bin\Debug\netcoreapp3.1\TheArrowDb.sdf
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\bin\Debug\netcoreapp3.1\TheArrowData.deps.json
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\bin\Debug\netcoreapp3.1\TheArrowData.dll
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\obj\Debug\netcoreapp3.1\TheArrowData.AssemblyInfoInputs.cache
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\obj\Debug\netcoreapp3.1\TheArrowData.AssemblyInfo.cs
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\bin\Debug\netcoreapp3.1\TheArrowData.runtimeconfig.json
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\bin\Debug\netcoreapp3.1\TheArrowData.runtimeconfig.dev.json
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\obj\Debug\netcoreapp3.1\TheArrowData.csprojAssemblyReference.cache
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\obj\Debug\netcoreapp3.1\TheArrowData.genruntimeconfig.cache
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\bin\Debug\netcoreapp3.1\TheArrowData.pdb
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\obj\Debug\netcoreapp3.1\TheArrowData.dll
+C:\Users\Bobby\Downloads\TheArrow\TheArrow\TheArrowData\obj\Debug\netcoreapp3.1\TheArrowData.pdb

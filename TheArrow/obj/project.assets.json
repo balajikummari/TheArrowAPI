@@ -1,0 +1,451 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Google.Apis/1.48.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis.Core": "1.48.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.dll": {}
+        }
+      },
+      "Google.Apis.Auth/1.48.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.48.0",
+          "Google.Apis.Core": "1.48.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll": {},
+          "lib/netstandard2.0/Google.Apis.Auth.dll": {}
+        }
+      },
+      "Google.Apis.Core/1.48.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Core.dll": {}
+        }
+      },
+      "Google.Apis.Drive.v3/1.48.0.1995": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.48.0",
+          "Google.Apis.Auth": "1.48.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Drive.v3.dll": {}
+        }
+      },
+      "Google.Apis.Sheets.v4/1.48.0.2007": {
+        "type": "package",
+        "dependencies": {
+          "Google.Apis": "1.48.0",
+          "Google.Apis.Auth": "1.48.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Apis.Sheets.v4.dll": {}
+        }
+      },
+      "LibGit2Sharp/0.26.2": {
+        "type": "package",
+        "dependencies": {
+          "LibGit2Sharp.NativeBinaries": "[2.0.306]"
+        },
+        "compile": {
+          "lib/netstandard2.0/LibGit2Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LibGit2Sharp.dll": {}
+        }
+      },
+      "LibGit2Sharp.NativeBinaries/2.0.306": {
+        "type": "package",
+        "build": {
+          "build/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/alpine-x64/native/libgit2-106a5f2.so": {
+            "assetType": "native",
+            "rid": "alpine-x64"
+          },
+          "runtimes/alpine.3.9-x64/native/libgit2-106a5f2.so": {
+            "assetType": "native",
+            "rid": "alpine.3.9-x64"
+          },
+          "runtimes/debian-arm64/native/libgit2-106a5f2.so": {
+            "assetType": "native",
+            "rid": "debian-arm64"
+          },
+          "runtimes/debian.9-x64/native/libgit2-106a5f2.so": {
+            "assetType": "native",
+            "rid": "debian.9-x64"
+          },
+          "runtimes/fedora-x64/native/libgit2-106a5f2.so": {
+            "assetType": "native",
+            "rid": "fedora-x64"
+          },
+          "runtimes/linux-x64/native/libgit2-106a5f2.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx/native/libgit2-106a5f2.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/rhel-x64/native/libgit2-106a5f2.so": {
+            "assetType": "native",
+            "rid": "rhel-x64"
+          },
+          "runtimes/ubuntu.16.04-arm64/native/libgit2-106a5f2.so": {
+            "assetType": "native",
+            "rid": "ubuntu.16.04-arm64"
+          },
+          "runtimes/ubuntu.18.04-x64/native/libgit2-106a5f2.so": {
+            "assetType": "native",
+            "rid": "ubuntu.18.04-x64"
+          },
+          "runtimes/win-x64/native/git2-106a5f2.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/git2-106a5f2.pdb": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/git2-106a5f2.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/git2-106a5f2.pdb": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Google.Apis/1.48.0": {
+      "sha512": "wnZJKPM7blcDzfTyMQ6kHvvDkd89a3C8m8uzTIJ8vrOdRqSAwHDE9nhht6GtcPe+sSfpuav0dX4RFAz2pKzp8w==",
+      "type": "package",
+      "path": "google.apis/1.48.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.1.48.0.nupkg.sha512",
+        "google.apis.nuspec",
+        "lib/net45/Google.Apis.PlatformServices.dll",
+        "lib/net45/Google.Apis.dll",
+        "lib/net45/Google.Apis.pdb",
+        "lib/net45/Google.Apis.xml",
+        "lib/netstandard1.3/Google.Apis.dll",
+        "lib/netstandard1.3/Google.Apis.pdb",
+        "lib/netstandard1.3/Google.Apis.xml",
+        "lib/netstandard2.0/Google.Apis.dll",
+        "lib/netstandard2.0/Google.Apis.pdb",
+        "lib/netstandard2.0/Google.Apis.xml"
+      ]
+    },
+    "Google.Apis.Auth/1.48.0": {
+      "sha512": "OwBOJLMr/4WH3svpoYjOhPu+GYN1N3sEsllBbMHxLYpfCKP13XheifjSnClzXnHuY19tDfN6aEwHpPv5jkG88Q==",
+      "type": "package",
+      "path": "google.apis.auth/1.48.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.auth.1.48.0.nupkg.sha512",
+        "google.apis.auth.nuspec",
+        "lib/net45/Google.Apis.Auth.PlatformServices.dll",
+        "lib/net45/Google.Apis.Auth.dll",
+        "lib/net45/Google.Apis.Auth.pdb",
+        "lib/net45/Google.Apis.Auth.xml",
+        "lib/netstandard1.3/Google.Apis.Auth.PlatformServices.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.dll",
+        "lib/netstandard1.3/Google.Apis.Auth.pdb",
+        "lib/netstandard1.3/Google.Apis.Auth.xml",
+        "lib/netstandard2.0/Google.Apis.Auth.PlatformServices.dll",
+        "lib/netstandard2.0/Google.Apis.Auth.dll",
+        "lib/netstandard2.0/Google.Apis.Auth.pdb",
+        "lib/netstandard2.0/Google.Apis.Auth.xml"
+      ]
+    },
+    "Google.Apis.Core/1.48.0": {
+      "sha512": "DJ/2eNBneeqEJuTO0ZPNON9DdDMS2JXcHiszZ86MUNqPtQGhB3xbZoGg1p0sOfvGpyyoqsIMNeJXdSWUHB4E5g==",
+      "type": "package",
+      "path": "google.apis.core/1.48.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "NuGetIcon.png",
+        "google.apis.core.1.48.0.nupkg.sha512",
+        "google.apis.core.nuspec",
+        "lib/net45/Google.Apis.Core.dll",
+        "lib/net45/Google.Apis.Core.pdb",
+        "lib/net45/Google.Apis.Core.xml",
+        "lib/netstandard1.3/Google.Apis.Core.dll",
+        "lib/netstandard1.3/Google.Apis.Core.pdb",
+        "lib/netstandard1.3/Google.Apis.Core.xml",
+        "lib/netstandard2.0/Google.Apis.Core.dll",
+        "lib/netstandard2.0/Google.Apis.Core.pdb",
+        "lib/netstandard2.0/Google.Apis.Core.xml"
+      ]
+    },
+    "Google.Apis.Drive.v3/1.48.0.1995": {
+      "sha512": "xammpGWnMYF/Z7RikAy8ZG9+LDgg2PECx5++971Mq7bZ1Va+FrFBN0yhMZ5ORvRU2+LCao1v5Ote3GjC9ZvE6Q==",
+      "type": "package",
+      "path": "google.apis.drive.v3/1.48.0.1995",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "google.apis.drive.v3.1.48.0.1995.nupkg.sha512",
+        "google.apis.drive.v3.nuspec",
+        "lib/net40/Google.Apis.Drive.v3.dll",
+        "lib/net40/Google.Apis.Drive.v3.pdb",
+        "lib/net40/Google.Apis.Drive.v3.xml",
+        "lib/net45/Google.Apis.Drive.v3.dll",
+        "lib/net45/Google.Apis.Drive.v3.pdb",
+        "lib/net45/Google.Apis.Drive.v3.xml",
+        "lib/netstandard1.0/Google.Apis.Drive.v3.dll",
+        "lib/netstandard1.0/Google.Apis.Drive.v3.pdb",
+        "lib/netstandard1.0/Google.Apis.Drive.v3.xml",
+        "lib/netstandard1.3/Google.Apis.Drive.v3.dll",
+        "lib/netstandard1.3/Google.Apis.Drive.v3.pdb",
+        "lib/netstandard1.3/Google.Apis.Drive.v3.xml",
+        "lib/netstandard2.0/Google.Apis.Drive.v3.dll",
+        "lib/netstandard2.0/Google.Apis.Drive.v3.pdb",
+        "lib/netstandard2.0/Google.Apis.Drive.v3.xml"
+      ]
+    },
+    "Google.Apis.Sheets.v4/1.48.0.2007": {
+      "sha512": "v5M+50WIX/HGfkRPyoPeCr4oWeB21VVHPbEIWHV6xxkNSLFRNFE/nhNUsTR8t+w1KEG5SMjQJXhkX9VRZEvATQ==",
+      "type": "package",
+      "path": "google.apis.sheets.v4/1.48.0.2007",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "google.apis.sheets.v4.1.48.0.2007.nupkg.sha512",
+        "google.apis.sheets.v4.nuspec",
+        "lib/net40/Google.Apis.Sheets.v4.dll",
+        "lib/net40/Google.Apis.Sheets.v4.pdb",
+        "lib/net40/Google.Apis.Sheets.v4.xml",
+        "lib/net45/Google.Apis.Sheets.v4.dll",
+        "lib/net45/Google.Apis.Sheets.v4.pdb",
+        "lib/net45/Google.Apis.Sheets.v4.xml",
+        "lib/netstandard1.0/Google.Apis.Sheets.v4.dll",
+        "lib/netstandard1.0/Google.Apis.Sheets.v4.pdb",
+        "lib/netstandard1.0/Google.Apis.Sheets.v4.xml",
+        "lib/netstandard1.3/Google.Apis.Sheets.v4.dll",
+        "lib/netstandard1.3/Google.Apis.Sheets.v4.pdb",
+        "lib/netstandard1.3/Google.Apis.Sheets.v4.xml",
+        "lib/netstandard2.0/Google.Apis.Sheets.v4.dll",
+        "lib/netstandard2.0/Google.Apis.Sheets.v4.pdb",
+        "lib/netstandard2.0/Google.Apis.Sheets.v4.xml"
+      ]
+    },
+    "LibGit2Sharp/0.26.2": {
+      "sha512": "qHLhuI8VEtMf7jiurT/Ypquh37S6ngllCx+aq9uqOY2evok7Fb2AzhJgvNctsXOzHaJwveBs+30sPQJFn/pISg==",
+      "type": "package",
+      "path": "libgit2sharp/0.26.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "App_Readme/CHANGES.md",
+        "App_Readme/LICENSE.md",
+        "App_Readme/README.md",
+        "lib/net46/LibGit2Sharp.dll",
+        "lib/net46/LibGit2Sharp.pdb",
+        "lib/net46/LibGit2Sharp.xml",
+        "lib/netstandard2.0/LibGit2Sharp.dll",
+        "lib/netstandard2.0/LibGit2Sharp.pdb",
+        "lib/netstandard2.0/LibGit2Sharp.xml",
+        "libgit2sharp.0.26.2.nupkg.sha512",
+        "libgit2sharp.nuspec"
+      ]
+    },
+    "LibGit2Sharp.NativeBinaries/2.0.306": {
+      "sha512": "LY9nyPE2X/eLl69ttuDPFFlKR8b5KXlqYej1YR1YmqmhF8Izo+vPX90q5ouOO5YGCf5d4lDUOC0x2yMWw00P7Q==",
+      "type": "package",
+      "path": "libgit2sharp.nativebinaries/2.0.306",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/LibGit2Sharp.NativeBinaries.props",
+        "build/net46/LibGit2Sharp.NativeBinaries.props",
+        "buildMultiTargeting/LibGit2Sharp.NativeBinaries.props",
+        "libgit2/LibGit2Sharp.dll.config",
+        "libgit2/libgit2.license.txt",
+        "libgit2/libgit2_hash.txt",
+        "libgit2sharp.nativebinaries.2.0.306.nupkg.sha512",
+        "libgit2sharp.nativebinaries.nuspec",
+        "runtimes/alpine-x64/native/libgit2-106a5f2.so",
+        "runtimes/alpine.3.9-x64/native/libgit2-106a5f2.so",
+        "runtimes/debian-arm64/native/libgit2-106a5f2.so",
+        "runtimes/debian.9-x64/native/libgit2-106a5f2.so",
+        "runtimes/fedora-x64/native/libgit2-106a5f2.so",
+        "runtimes/linux-x64/native/libgit2-106a5f2.so",
+        "runtimes/osx/native/libgit2-106a5f2.dylib",
+        "runtimes/rhel-x64/native/libgit2-106a5f2.so",
+        "runtimes/ubuntu.16.04-arm64/native/libgit2-106a5f2.so",
+        "runtimes/ubuntu.18.04-x64/native/libgit2-106a5f2.so",
+        "runtimes/win-x64/native/git2-106a5f2.dll",
+        "runtimes/win-x64/native/git2-106a5f2.pdb",
+        "runtimes/win-x86/native/git2-106a5f2.dll",
+        "runtimes/win-x86/native/git2-106a5f2.pdb"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Google.Apis.Drive.v3 >= 1.48.0.1995",
+      "Google.Apis.Sheets.v4 >= 1.48.0.2007",
+      "LibGit2Sharp >= 0.26.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Bobby\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Bobby\\Downloads\\TheArrow\\TheArrow\\TheArrow\\TheArrow.csproj",
+      "projectName": "TheArrow",
+      "projectPath": "C:\\Users\\Bobby\\Downloads\\TheArrow\\TheArrow\\TheArrow\\TheArrow.csproj",
+      "packagesPath": "C:\\Users\\Bobby\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Bobby\\Downloads\\TheArrow\\TheArrow\\TheArrow\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Bobby\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Google.Apis.Drive.v3": {
+            "target": "Package",
+            "version": "[1.48.0.1995, )"
+          },
+          "Google.Apis.Sheets.v4": {
+            "target": "Package",
+            "version": "[1.48.0.2007, )"
+          },
+          "LibGit2Sharp": {
+            "target": "Package",
+            "version": "[0.26.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

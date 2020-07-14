@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tg+8m0N/kF/LmKCmYV924LFaLvkSsC67wyyKHJ+TIDSWVMgNrhCzAELp32ERfGkl7CrmgVyeo5skFU9yaFhDZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Bobby\\Downloads\\TheArrow\\TheArrow\\TheArrow\\TheArrow.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Bobby\\.nuget\\packages\\google.apis\\1.48.0\\google.apis.1.48.0.nupkg.sha512",
+    "C:\\Users\\Bobby\\.nuget\\packages\\google.apis.auth\\1.48.0\\google.apis.auth.1.48.0.nupkg.sha512",
+    "C:\\Users\\Bobby\\.nuget\\packages\\google.apis.core\\1.48.0\\google.apis.core.1.48.0.nupkg.sha512",
+    "C:\\Users\\Bobby\\.nuget\\packages\\google.apis.drive.v3\\1.48.0.1995\\google.apis.drive.v3.1.48.0.1995.nupkg.sha512",
+    "C:\\Users\\Bobby\\.nuget\\packages\\google.apis.sheets.v4\\1.48.0.2007\\google.apis.sheets.v4.1.48.0.2007.nupkg.sha512",
+    "C:\\Users\\Bobby\\.nuget\\packages\\libgit2sharp\\0.26.2\\libgit2sharp.0.26.2.nupkg.sha512",
+    "C:\\Users\\Bobby\\.nuget\\packages\\libgit2sharp.nativebinaries\\2.0.306\\libgit2sharp.nativebinaries.2.0.306.nupkg.sha512",
+    "C:\\Users\\Bobby\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
